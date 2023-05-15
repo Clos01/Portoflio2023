@@ -1,0 +1,64 @@
+.Card {
+  z-index: 10;
+  position: absolute;
+  top: -2%; 
+  
+}
+
+@media screen and (max-width: 768px) { /* Adjust this value based on the breakpoint you want */
+  .Aboutme {
+  padding-bottom: 0px;
+  }
+}
+@media screen and (max-width: 768px) { /* Adjust this value based on the breakpoint you want */
+  .cards {
+  width: 30rem;
+  }
+}
+@media screen and (max-width: 768px) { /* Adjust this value based on the breakpoint you want */
+  .Card {
+    position: relative;
+    top: 0; /* Adjust this value based on your design */
+  }
+}
+@media screen and (min-width: 768px) { /* Adjust this value based on the breakpoint you want */
+  .Card {
+    margin-top: 24rem;
+  }
+}
+
+
+
+.Aboutsection {
+  z-index: 1;
+  position: relative;
+}
+
+/* Rest of your CSS code */
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.gallery {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.aspect-w-1 {
+  width: 100%;
+}
+
+.aspect-h-1 {
+  padding-bottom: 100%;
+}
+
+.transition-transform {
+  transition-property: transform;
+  transition-duration: 0.3s;
+}
+
+.hover:scale-110:hover {
+  transform: scale(1.1);
+}
